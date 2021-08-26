@@ -3,15 +3,15 @@
 #include <cstring>
 using namespace std;
 
-void :: setLength(int l)
+void Box:: setLength(int l)
 {
   length = l;
 }
-void :: setWidth(int w)
+void Box:: setWidth(int w)
 {
   width = w;
 }
-void :: setHeight(int h)
+void Box:: setHeight(int h)
 {
   height = h;
 }
